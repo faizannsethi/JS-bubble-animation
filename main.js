@@ -9,6 +9,7 @@ async function show() {
   const ballsarrayparam = [];
   var balls = Math.floor(Math.random() * 7 + 2);
   var count = 1;
+  //creating multiple bubbles
   while (count <= balls) {
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
